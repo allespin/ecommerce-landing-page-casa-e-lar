@@ -73,7 +73,7 @@ ion-icon {
   ease-inExpo
   invisible
 
-  /* responsive para md:1000px telas médias */
+  /* responsivo para md:1000px telas médias */
   md:bg-papaya_whip
   md:text-jet
   md:absolute
@@ -84,7 +84,7 @@ ion-icon {
   md:rounded-md
   md:shadow-sm
 
-  /* responsive for xxl:1600 screen */
+  /* responsivo para xxl:1600 telas */
   xxl:text-lg
   xxl:min-w-60;
 
@@ -219,7 +219,7 @@ ion-icon {
 }
 
 /**
- * Arrow button
+ * Botão arrow do slider
  */
 
 .arrow-button {
@@ -349,7 +349,7 @@ ion-icon {
 }
 
 /**
- * cart
+ * Carrinho / cart
  */
 
 .cart-toggler {
