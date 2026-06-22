@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /*-------------------------*\
-  #RESET
+  #reset
 \*-------------------------*/
 
 a,
@@ -18,7 +18,7 @@ html {
 }
 
 /*-------------------------*\
-  #REUSED STYLE
+  #estilo reutilizado
 \*-------------------------*/
 
 .material-symbols-rounded {
@@ -47,16 +47,16 @@ ion-icon {
 .grid-list > li:nth-child(even):not(.off-card) {
   @apply xs:ms-auto
 
-  /* responsive for sm:635px screen */
+  /* responsivo para sm:635px */
   sm:ms-0;
 }
 
 /*-------------------------*\
-  #COMPONENTS
+  #componentes
 \*-------------------------*/
 
 /**
- * Dropdown
+ * dropdown
  */
 
 .dropdown {
@@ -70,7 +70,7 @@ ion-icon {
   border-b
   h-0
   px-8
-  space-y-5 /* Espaçamento de textos menu mobile */
+  space-y-5 /* espaçamento de textos menu mobile */
   text-sm
   transition-all
   duration-200
@@ -100,7 +100,7 @@ ion-icon {
   h-auto
   py-3
   
-  /* responsive for xxl:1600 screen */
+  /* responsivo para xxl:1600 */
   xxl:h-auto;
 
   clip-path: inset(0 0 0 0);
@@ -118,7 +118,7 @@ ion-icon {
 }
 
 /**
- * Button
+ * botão
  */
 
 .btn {
@@ -145,7 +145,7 @@ ion-icon {
 }
 
 /**
- * Card
+ * card
  */
 
 .card {
@@ -157,15 +157,15 @@ ion-icon {
   py-5
   px-5
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:min-h-[360px]
   
-  /* responsive for lg:1200px screen */
+  /* responsivo para lg:1200px */
   lg:min-h-[219px];
 }
 
 /**
- * Slider
+ * slider
  */
 
 .slider {
@@ -223,7 +223,7 @@ ion-icon {
 }
 
 /**
- * Botão arrow do slider
+ * botão de seta do slider
  */
 
 .arrow-button {
@@ -238,7 +238,7 @@ ion-icon {
 }
 
 /**
- * Avatar
+ * avatar
  */
 
 .avatar {
@@ -249,7 +249,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #HEADER
+  #cabeçalho
 \*-------------------------*/
 
 .header {
@@ -270,18 +270,18 @@ ion-icon {
 }
 
 .header .container {
-  /* responsive for lg:1200px screen */
+  /* responsivo para lg:1200px */
   @apply lg:mx-0
   lg:w-2/4
   lg:max-w-[calc(100%_-_600px)]
   lg:py-7
   lg:px-7
 
-  /* responsive for xl:1400px screen */
+  /* responsivo para xl:1400px */
   xl:w-full
   xl:max-w-[calc(100%_-_666px)]
   
-  /* responsive for xxl:1600px screen */
+  /* responsivo para xxl:1600px */
   xxl:grid
   xxl:grid-cols-3
   xxl:mx-auto
@@ -325,7 +325,7 @@ ion-icon {
   h-10
   w-10
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:hidden;
 }
 
@@ -344,16 +344,16 @@ ion-icon {
   /* :hover */
   hover:text-butterscotch
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:border-b-0
   md:p-0
 
-  /* responsive for xxl:1600px screen */
+  /* responsivo para xxl:1600px */
   xxl:text-xl;
 }
 
 /**
- * Carrinho / cart
+ * carrinho
  */
 
 .cart-toggler {
@@ -378,7 +378,7 @@ ion-icon {
   before:text-sm
   before:font-semibold
   
-  /* responsive for lg:1200px screen */
+  /* responsivo para lg:1200px */
   lg:bg-caf_noir;
 }
 
@@ -399,7 +399,7 @@ ion-icon {
   invisible
   opacity-0
   
-  /* responsive for sm:635px screen */
+  /* responsivo para sm:635px */
   sm:right-14;
   background: linear-gradient(359deg, #fde6b9, #fff3dcff);
 }
@@ -415,7 +415,7 @@ ion-icon {
 }
 
 /**
- * Overlay
+ * overlay
  */
 
 .overlay {
@@ -435,7 +435,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #HERO
+  #destaque
 \*-------------------------*/
 
 .hero {
@@ -451,7 +451,7 @@ ion-icon {
 }
 
 .hero .container {
-  /* response for lg:1200px screen */
+  /* responsivo para lg:1200px */
   @apply lg:grid
   lg:grid-cols-2;
 }
@@ -460,7 +460,7 @@ ion-icon {
   @apply absolute
   inset-0
   
-  /* responsive for lg:1200px screen */
+  /* responsivo para lg:1200px */
   lg:left-auto
   lg:max-w-[50%];
 }
@@ -480,16 +480,16 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #TESTIMONIALS
+  #depoimentos
 \*-------------------------*/
 
 .testimonial-card:nth-child(1) {
   @apply left-[calc(-100%_-_20px)]
   
-  /* responsive for sm:635px screen */
+  /* responsivo para sm:635px */
   sm:left-[calc(-580px_+_-30px)]
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:left-[calc(-756px_+_-30px)];
 }
 
@@ -500,25 +500,25 @@ ion-icon {
 .testimonial-card:nth-child(3) {
   @apply left-[calc(100%_+_20px)]
   
-  /* responsive for sm:635px screen */
+  /* responsivo para sm:635px */
   sm:left-[calc(580px_+_30px)]
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:left-[calc(756px_+_30px)];
 }
 
 .testimonial-card:nth-child(4) {
   @apply left-[calc((100%_+_20px)_*_2)]
   
-  /* responsive for sm:635px screen */
+  /* responsivo para sm:635px */
   sm:left-[calc((580px_+_30px)_*_2)]
   
-  /* responsive for md:1000px screen */
+  /* responsivo para md:1000px */
   md:left-[calc((756px_+_30px)_*_2)];
 }
 
 /*-------------------------*\
-  #ANIMATIONS
+  #animações
 \*-------------------------*/
 
 @keyframes scroll {
@@ -535,7 +535,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #FOOTER
+  #rodapé
 \*-------------------------*/
 
 .parallax {
@@ -544,6 +544,6 @@ ion-icon {
   bg-cover
   bg-no-repeat
   
-  /* responsive for xl:1400px screen */
+  /* responsivo para xl:1400px */
   xl:min-h-96;
 }

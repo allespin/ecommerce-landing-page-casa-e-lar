@@ -107,12 +107,12 @@
 }
 
 /*
-! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | licença MIT | https://tailwindcss.com
 */
 
 /*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+1. evita que o padding e a borda afetem a largura do elemento. (https://github.com/mozdevs/cssremedy/issues/4)
+2. permite adicionar borda a um elemento apenas definindo a largura da borda (border-width). (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
 *,
@@ -134,13 +134,13 @@
 }
 
 /*
-1. Use a consistent sensible line-height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-3. Use a more readable tab size.
-4. Use the user's configured `sans` font-family by default.
-5. Use the user's configured `sans` font-feature-settings by default.
-6. Use the user's configured `sans` font-variation-settings by default.
-7. Disable tap highlights on iOS
+1. usa uma altura de linha consistente e sensata em todos os navegadores.
+2. evita ajustes no tamanho da fonte após mudar a orientação no iOS.
+3. usa um tamanho de tabulação mais legível.
+4. usa a família de fontes padrão 'sans' configurada pelo usuário.
+5. usa as configurações de recursos de fonte 'sans' padrão configuradas pelo usuário.
+6. usa as configurações de variação de fonte 'sans' padrão configuradas pelo usuário.
+7. desativa o realce de toque no iOS.
 */
 
 html,
@@ -165,8 +165,8 @@ html,
 }
 
 /*
-1. Remove the margin in all browsers.
-2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+1. remove a margem em todos os navegadores.
+2. herda a altura da linha de 'html' para que possa ser definida diretamente como classe no elemento.
 */
 
 body {
@@ -177,9 +177,9 @@ body {
 }
 
 /*
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-3. Ensure horizontal rules are visible by default.
+1. adiciona a altura correta no Firefox.
+2. corrige a herança da cor da borda no Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. garante que as linhas horizontais fiquem visíveis por padrão.
 */
 
 hr {
@@ -192,7 +192,7 @@ hr {
 }
 
 /*
-Add the correct text decoration in Chrome, Edge, and Safari.
+adiciona a decoração de texto correta no Chrome, Edge e Safari.
 */
 
 abbr:where([title]) {
@@ -201,7 +201,7 @@ abbr:where([title]) {
 }
 
 /*
-Remove the default font size and weight for headings.
+remove o tamanho e peso de fonte padrão dos títulos.
 */
 
 h1,
@@ -215,7 +215,7 @@ h6 {
 }
 
 /*
-Reset links to optimize for opt-in styling instead of opt-out.
+reseta os links para facilitar a estilização manual.
 */
 
 a {
@@ -224,7 +224,7 @@ a {
 }
 
 /*
-Add the correct font weight in Edge and Safari.
+adiciona o peso de fonte correto no Edge e Safari.
 */
 
 b,
@@ -233,10 +233,10 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font-family by default.
-2. Use the user's configured `mono` font-feature-settings by default.
-3. Use the user's configured `mono` font-variation-settings by default.
-4. Correct the odd `em` font sizing in all browsers.
+1. usa a família de fontes 'mono' padrão configurada pelo usuário.
+2. usa as configurações de recursos de fonte 'mono' padrão do usuário.
+3. usa as configurações de variação de fonte 'mono' padrão do usuário.
+4. corrige o dimensionamento estranho da fonte 'em' nos navegadores.
 */
 
 code,
@@ -254,7 +254,7 @@ pre {
 }
 
 /*
-Add the correct font size in all browsers.
+adiciona o tamanho de fonte correto em todos os navegadores.
 */
 
 small {
@@ -262,7 +262,7 @@ small {
 }
 
 /*
-Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+evita que os elementos 'sub' e 'sup' afetem a altura da linha em todos os navegadores.
 */
 
 sub,
@@ -282,9 +282,9 @@ sup {
 }
 
 /*
-1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
-2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
-3. Remove gaps between table borders by default.
+1. remove o recuo do texto do conteúdo da tabela no Chrome e Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. corrige a herança da cor da borda da tabela no Chrome e Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. remove espaçamentos entre bordas de tabelas por padrão.
 */
 
 table {
@@ -297,9 +297,9 @@ table {
 }
 
 /*
-1. Change the font styles in all browsers.
-2. Remove the margin in Firefox and Safari.
-3. Remove default padding in all browsers.
+1. altera os estilos de fonte em todos os navegadores.
+2. remove a margem no Firefox e Safari.
+3. remove o preenchimento padrão em todos os navegadores.
 */
 
 button,
@@ -330,7 +330,7 @@ textarea {
 }
 
 /*
-Remove the inheritance of text transform in Edge and Firefox.
+remove a herança de transformação de texto no Edge e Firefox.
 */
 
 button,
@@ -339,8 +339,8 @@ select {
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
+1. corrige a impossibilidade de estilizar tipos clicáveis no iOS e Safari.
+2. remove os estilos padrão de botão.
 */
 
 button,
@@ -356,7 +356,7 @@ input:where([type='submit']) {
 }
 
 /*
-Use the modern Firefox focus style for all focusable elements.
+usa o estilo moderno de foco do Firefox para elementos focáveis.
 */
 
 :-moz-focusring {
@@ -364,7 +364,7 @@ Use the modern Firefox focus style for all focusable elements.
 }
 
 /*
-Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+remove os estilos adicionais ':invalid' no Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
 */
 
 :-moz-ui-invalid {
@@ -372,7 +372,7 @@ Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/
 }
 
 /*
-Add the correct vertical alignment in Chrome and Firefox.
+adiciona o alinhamento vertical correto no Chrome e Firefox.
 */
 
 progress {
@@ -380,7 +380,7 @@ progress {
 }
 
 /*
-Correct the cursor style of increment and decrement buttons in Safari.
+corrige o cursor dos botões de incremento e decremento no Safari.
 */
 
 ::-webkit-inner-spin-button,
@@ -389,8 +389,8 @@ Correct the cursor style of increment and decrement buttons in Safari.
 }
 
 /*
-1. Correct the odd appearance in Chrome and Safari.
-2. Correct the outline style in Safari.
+1. corrige a aparência estranha no Chrome e Safari.
+2. corrige o estilo de contorno no Safari.
 */
 
 [type='search'] {
@@ -401,7 +401,7 @@ Correct the cursor style of increment and decrement buttons in Safari.
 }
 
 /*
-Remove the inner padding in Chrome and Safari on macOS.
+remove o padding interno no Chrome e Safari no macOS.
 */
 
 ::-webkit-search-decoration {
@@ -409,8 +409,8 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Change font properties to `inherit` in Safari.
+1. corrige a impossibilidade de estilizar tipos clicáveis no iOS e Safari.
+2. muda as propriedades da fonte para herdadas (inherit) no Safari.
 */
 
 ::-webkit-file-upload-button {
@@ -421,7 +421,7 @@ Remove the inner padding in Chrome and Safari on macOS.
 }
 
 /*
-Add the correct display in Chrome and Safari.
+adiciona a exibição correta no Chrome e Safari.
 */
 
 summary {
@@ -429,7 +429,7 @@ summary {
 }
 
 /*
-Removes the default spacing and border for appropriate elements.
+remove o espaçamento e borda padrão dos elementos apropriados.
 */
 
 blockquote,
@@ -466,7 +466,7 @@ menu {
 }
 
 /*
-Reset default styling for dialogs.
+reseta a estilização padrão dos diálogos.
 */
 
 dialog {
@@ -474,7 +474,7 @@ dialog {
 }
 
 /*
-Prevent resizing textareas horizontally by default.
+evita o redimensionamento horizontal de caixas de texto por padrão.
 */
 
 textarea {
@@ -482,8 +482,8 @@ textarea {
 }
 
 /*
-1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured gray 400 color.
+1. reseta a opacidade padrão do placeholder no Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. define a cor padrão do placeholder como cinza 400.
 */
 
 input::-moz-placeholder, textarea::-moz-placeholder {
@@ -502,7 +502,7 @@ textarea::placeholder {
 }
 
 /*
-Set the default cursor for buttons.
+define o cursor padrão para botões.
 */
 
 button,
@@ -511,7 +511,7 @@ button,
 }
 
 /*
-Make sure disabled buttons don't get the pointer cursor.
+garante que botões desativados não exibam o cursor de clique.
 */
 
 :disabled {
@@ -519,9 +519,8 @@ Make sure disabled buttons don't get the pointer cursor.
 }
 
 /*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
+1. define elementos substituídos como 'display: block' por padrão. (https://github.com/mozdevs/cssremedy/issues/14)
+2. adiciona 'vertical-align: middle' para alinhá-los de forma mais sensata por padrão.
 */
 
 img,
@@ -539,7 +538,7 @@ object {
 }
 
 /*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+limita imagens e vídeos à largura do elemento pai e preserva a proporção nativa. (https://github.com/mozdevs/cssremedy/issues/14)
 */
 
 img,
@@ -548,7 +547,7 @@ video {
   height: auto;
 }
 
-/* Make elements with the HTML hidden attribute stay hidden by default */
+/* garante que elementos com o atributo 'hidden' permaneçam ocultos por padrão */
 
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
@@ -1309,7 +1308,7 @@ video {
 }
 
 /*-------------------------*\
-  #RESET
+  #reset
 \*-------------------------*/
 
 a,
@@ -1324,7 +1323,7 @@ html {
 }
 
 /*-------------------------*\
-  #REUSED STYLE
+  #estilo reutilizado
 \*-------------------------*/
 
 .material-symbols-rounded {
@@ -1370,11 +1369,11 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #COMPONENTS
+  #componentes
 \*-------------------------*/
 
 /**
- * Dropdown
+ * dropdown
  */
 
 .dropdown {
@@ -1477,7 +1476,7 @@ ion-icon {
 }
 
 /**
- * Button
+ * botão
  */
 
 .btn {
@@ -1516,7 +1515,7 @@ ion-icon {
 }
 
 /**
- * Card
+ * card
  */
 
 .card {
@@ -1544,7 +1543,7 @@ ion-icon {
 }
 
 /**
- * Slider
+ * slider
  */
 
 .slider {
@@ -1602,7 +1601,7 @@ ion-icon {
 }
 
 /**
- * Botão arrow do slider
+ * botão de seta do slider
  */
 
 .arrow-button {
@@ -1618,7 +1617,7 @@ ion-icon {
 }
 
 /**
- * Avatar
+ * avatar
  */
 
 .avatar {
@@ -1629,7 +1628,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #HEADER
+  #cabeçalho
 \*-------------------------*/
 
 .header {
@@ -1652,7 +1651,7 @@ ion-icon {
 }
 
 .header .container {
-  /* responsive for lg:1200px screen */
+  /* responsivo para lg:1200px */
 }
 
 @media (min-width: 1200px) {
@@ -1768,7 +1767,7 @@ ion-icon {
 }
 
 /**
- * Carrinho / cart
+ * carrinho
  */
 
 .cart-toggler {
@@ -1848,7 +1847,7 @@ ion-icon {
 }
 
 /**
- * Overlay
+ * overlay
  */
 
 .overlay {
@@ -1870,7 +1869,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #HERO
+  #destaque
 \*-------------------------*/
 
 .hero {
@@ -1886,7 +1885,7 @@ ion-icon {
 }
 
 .hero .container {
-  /* response for lg:1200px screen */
+  /* responsivo para lg:1200px */
 }
 
 @media (min-width: 1200px) {
@@ -1923,7 +1922,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #TESTIMONIALS
+  #depoimentos
 \*-------------------------*/
 
 .testimonial-card:nth-child(1) {
@@ -1979,7 +1978,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #ANIMATIONS
+  #animações
 \*-------------------------*/
 
 @keyframes scroll {
@@ -2001,7 +2000,7 @@ ion-icon {
 }
 
 /*-------------------------*\
-  #FOOTER
+  #rodapé
 \*-------------------------*/
 
 .parallax {

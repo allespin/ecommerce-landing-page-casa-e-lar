@@ -1,6 +1,6 @@
 'use strict';
 
-// add event on multiple elements
+// adiciona evento em múltiplos elementos
 const addEventOnElem = function (elements, eventType, callback) {
   for (let i = 0; i < elements.length; i++) {
     elements[i].addEventListener(eventType, callback);
@@ -24,29 +24,29 @@ const toggleNavbar = function () {
 
 addEventOnElem($navToggler, 'click', toggleNavbar);
 
-// element toggle function
+// função para alternar elemento
 const toggleElem = function (elem) {
   elem.classList.toggle('active');
 }
 
-// toggle dropdown
+// alterna o dropdown
 $dropdownToggler.addEventListener('click', function () {
   toggleElem($dropdown);
 });
 
-// toggle cart
+// alterna o carrinho
 $cartToggler.addEventListener('click', function () {
   toggleElem($cartModal);
 });
 
-// header active when windows scrollY 50px
+// ativa o cabeçalho quando rolar a página mais de 50px
 const activeHeader = function () {
   window.scrollY > 50 ? $header.classList.add('active') : $header.classList.remove('active');
 }
 
 window.addEventListener('scroll', activeHeader);
 
-// Custom slider
+// slider personalizado
 
 const $sliderContainers = document.querySelectorAll('[data-slider-container]');
 
@@ -79,12 +79,12 @@ function sliderInitial($sliderContainer) {
     clearInterval(autoSlideIntervalId);
   }
 
-  // Stop auto sliding when mouseover
+  // pausa o slide automático ao passar o mouse
   $slider.addEventListener('mouseover', deleteAutoSliding);
   $prevBtn.addEventListener('mouseover', deleteAutoSliding);
   $nextBtn.addEventListener('mouseover', deleteAutoSliding);
 
-  // Resume auto sliding when mouseout
+  // retoma o slide automático ao tirar o mouse
   $slider.addEventListener('mouseout', autoSlide);
   $prevBtn.addEventListener('mouseout', autoSlide);
   $nextBtn.addEventListener('mouseout', autoSlide);
