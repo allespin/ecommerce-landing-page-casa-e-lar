@@ -14,7 +14,7 @@ Além do layout responsivo, o conteúdo é alimentado por dados estruturados em 
 ---
 ## 📷 Preview
 
-Visualize a landing page funcional desse projeto [AQUI!](https://allespin.github.io/ecommerce-landing-page-casa-e-lar/)
+Visualize a landing page funcional desse projeto [AQUI!](https://allespin.github.io/casaelar-landing-page/)
 
 ---
 
@@ -135,7 +135,7 @@ This project was built to provide an attractive and interactive shopping experie
 ---
 ## 📷 Preview
 
-Visualize a functional landing page for this e-commerce [HERE!](https://allespin.github.io/ecommerce-landing-page-casa-e-lar/)
+Visualize a functional landing page for this e-commerce [HERE!](https://allespin.github.io/casaelar-landing-page/)
 
 
 ---
